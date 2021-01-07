@@ -1,0 +1,75 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ 
+ body {
+     text-align: center;
+     padding: 50px 50px;
+     font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ 
+ .blog {
+     border: 3px solid black;
+     margin: 0 auto;
+     border-radius: 10px;
+     max-width: 1200px;
+ }
+ 
+ .blog h1 {
+     font-size: 4rem;
+     font-weight: 700;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ 
+ .blog p {
+     font-size: 1.2rem;
+     font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     text-align: justify;
+ }
+ 
+ .images {
+     width: 100%;
+     padding: 10px 20px;
+ }
+ 
+ .images img {
+     height: 30vh;
+     margin: 0 auto;
+     width: 33%;
+     border-radius: 10px;
+ }
+ 
+ .dis {
+     height: 100px;
+     background: #b9b9b9;
+     margin-bottom: 100px;
+ }
+ 
+ .div {
+     background: #360a0a;
+     height: 20px;
+     width: 30px;
+ }
+ 
+ li {
+     display: inline;
+     float: left;
+     padding: 10px;
+ }
+ 
+ a {
+     display: block;
+ }
+ 
+ .clearfix {
+     overflow: auto;
+     margin: 10rem;
+     text-align: justify;
+ }
+ 
+ .img2 {
+     float: right;
+     padding: 10px 20px;
+ }
